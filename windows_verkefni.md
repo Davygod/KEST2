@@ -42,7 +42,7 @@ NTFS (short for New Technology File System) is a modern, well-formed file system
 * What tabs are listed in the ITE Test Document Properties window?
   * ???
 * What happens if you do not run as administrator when you open the command prompt?
-  * ???
+  * If you can't run Command Prompt as administrator, the issue might be related to your user account. Sometimes your user account can get corrupted, and that can cause the issue with Command Prompt. Repairing your user account is quite hard, but you can fix the problem simply by creating a new user account.
 * What type of File System is used for the ITE (I:) drive?
   * ???
 * What are the tabs in the ITE (I:) Properties window?
@@ -353,7 +353,60 @@ What is the color of the desktop?
 * Reflection Question: After restarting the computer, why was the desktop color changed?
   * ???
 ### 11.3.2.8 Lab - Manage System Files
+* Under the System Summary heading locate and list the following:
+  * Processor:
+  * BIOS Version/Date:
+  * Total Physical Memory:
+* Under the Hardware Resources heading, locate and list the following:
+  * DMA channels and the device using the resources:
+* Under the Components heading locate and list the following:
+  * Adapter Description:
+  * Adapter RAM:
+* Under the Software Environment heading, where would you find the applications that automatically load
+when the computer boots?
+  * ???
+* Click the General tab. Question:
+What are the startup options?
+  * ???
+* Click the Services tab. This tab lists the computers services and status.
+Question:
+Can you enable and disable services at this tab?
+  * ???
+* Click the Tools tab.
+Question:
+What can you do in this tab?
+  * ???
+* Make sure the System tab is active.
+Question:
+What does this tool report?
+  * ???
+* Click Next Page until you are at the Display tab.
+Question:
+What information is listed on this page?
+  * ???
+* Click Next Page until you are at the Sound tab.
+Question:
+What information is listed on this page?
+  * ???
+* Click Next Page until you are on the Input tab. Question:
+What information is listed on this page?
+  * ???
+* List any additional tabs in your DirectX Diagnostic Tool window below.
+Question:
+What information is listed on these extra tabs?
+  * ???
+* Reflection Question: Why would it be beneficial to turn off a service in the system configuration?
+  * 
+* Reflection Question: When would you use the startup tab of the system configuration tool?
+  * ???
 ### 11.4.1.5 Lab - Work in the Windows Command Shell
+* To see the next page, press the spacebar. What happens when you press enter?
+  * ???
+* Press q or Ctrl-C to exit after filling out the functions of the following commands:
+  * 
+* 
+* 
+* 
 ### 11.4.2.7 Lab - File System Commands
 ### 11.4.3.2 Lab - Disk CLI Commands
 ### 11.4.4.2 Lab - Task and System CLI Commands
