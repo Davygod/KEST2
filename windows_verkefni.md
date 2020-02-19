@@ -201,7 +201,7 @@ Which folders or files listed under the Libraries heading?
 * How would you remove the directory of Folder1 from the library without deleting Folder1 and its contents
 from the computer?
   * ???
-# LAB 11.2.1.5
+### LAB 11.2.1.5
 * In the Control Panel, click the View by: drop-down box.
 Question:
 What are the viewing options?
@@ -247,4 +247,4 @@ Internet?
 * Which subcategory would you use to improve the computer’s ability to understand your voice and improve the
 dictation accuracy?
   * ???
-# LAB 11.2.2.3
+### LAB 11.2.2.3
