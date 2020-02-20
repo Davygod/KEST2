@@ -677,7 +677,7 @@ helper.
 Question:
 What are the ways to send an invitation to a trusted person with Remote Assistance?
   * ???
-* __Reflection Questions__
+* __Reflection Questions:__
   1. What type of scenarios are most appropriate for Remote Assistance in contrast with Remote Desktop?
     * ???
   2. How many simultaneous users can access a Windows computer at a single time?
