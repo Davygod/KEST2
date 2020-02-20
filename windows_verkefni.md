@@ -57,7 +57,11 @@ after the volume was converted to NTFS?
   * ???
 ### 11.1.2.10 Lab - Explore the Windows Desktop
 * List some of the icons that are on the Desktop.
-  * ???
+  * Microsoft Edge
+  * Google Chrome
+  * eBay
+  * Recycle Bin
+  * Spotify
 * What type of information is available on the Desktop and Taskbar?
   * ???
 * Name a few applications listed in the Start Menu.
@@ -77,7 +81,7 @@ after the volume was converted to NTFS?
 * Click Turn system icons on or off. List the system icons that can be enabled.
   * ???
 * What can you do in the Notification & actions Settings window?
-  * ???
+  * Change notification settings in Windows 10
 ### 11.1.3.4 Lab - Work with Task Manager
 * To force the web browser to close, highlight the browser, and click End task.
 Question:
@@ -249,22 +253,22 @@ dictation accuracy?
   * ???
 ### 11.2.2.3 Lab - User Accounts
 * What can a user do with a limited account?
-  * ???
+  * A limited user account is, quite simply, access on your computer that allows you to do basic things for your work or day-to-day use. This includes sending emails, writing documents, and getting online. These require basic permissions on the computer. Limited User Accounts are often used by employers.
 * What limitations does this type of an account have?
-  * ???
+  * With a limited user account, the user is unable to install software or hardware. Inability to change account name and type. When it comes to changing the type of account or the name on the account, only those with full user accounts or computer administrator accounts can make those changes.
 * What information is listed for the new account?
   * ???
 * What is the advantage of having most users work within a Standard user account?
-  * ???
+  * Standard accounts are the basic accounts you use for normal everyday tasks. As a Standard user, you can do just about anything you would need to do, such as running software or personalizing your desktop. Standard with Family Safety: These are the only accounts that can have parental controls. What's more using a standard account will prevent most malware and other malicious programs and apps from making changes to your Windows system. And as you can imagine, that makes your system more secure.
 * For this lab, select Delete Files. What are the other options? When would you choose the other options?
   * ???
 * Why is it important to protect all accounts with strong passwords?
-  * ???
+  * A strong password provides essential protection from financial fraud and identity theft. One of the most common ways that hackers break into computers is by guessing passwords. Simple and commonly used passwords enable intruders to easily gain access and control of a computing device.
 * Why would you create a user with Standard privileges?
-  * ???
+  * In a nutshell, a user logged into an account with Administrator privileges can do pretty much anything on the computer. He/she can view every file on the system, change system-wide system settings, run all installed programs, add new programs, install new hardware and change the usernames and passwords of other users.
 * In what type of situation would an IT administrator delete a user account and choose to keep the files of that
 user account instead of deleting them?
-  * ???
+  * When that user is no longer active.
 ### 11.2.5.8 Lab - Manage Virtual Memory
 * In the Performance Options window, click the Advanced tab.
 Question:
@@ -280,18 +284,18 @@ What is the current size of the virtual memory (paging file)?
   * ???
 ### 11.2.6.2 Lab - Use Device Manager 
 * What information is listed in the Device Manager window? Why would you use it?
-  * ???
-* Browse through the menus displayed at the top of the Device Manager window. Ho would you install
+  * Batteries, Computer, Disk Drives, Display Adapters, Drives, IDE ATA ATAPI controllers, ect. You would use it if you wanted to change the settings for any of those components.
+* Browse through the menus displayed at the top of the Device Manager window. How would you install
 driver software for an older device that may not be automatically recognized by the Windows operating
 system?
   * ???
 * What additional information does Driver Details provide?
-  * ???
+  * It provides the Providing company, File version, copyright, digital signer, and the driver files.
 * What two options do you have for updating the driver?
-  * ???
+  * First is to go to the computer makers site and downloading their driver (Dell, HP, Asus,etc). Second is to go to the device makers site. For video nVidia, or ATI, for networking Intel, etc)
 * What does the Roll Back Driver button do? The Roll Back Driver can be grayed out on your computer,
 why would it be grayed out?
-  * ???
+  * When the Rollback Driver button isn't available (greyed out) it is an indication that a previous driver version has not been installed for that device. Depending on the device it is best to check the device manufacturer's website or ride with the Windows recommendation.
 * What are the other available options?
   * ???
 ### 11.3.1.11 Lab - Monitor and Manage System Resources
@@ -315,9 +319,9 @@ Question:
 What message did you receive? How would you fix this?
   * ???
 * When DHCP Client stops, what other services will also be stopped?
-  * ???
+  * Start, stop, and restart commands affect the daemon only for the current session. For example, if you stop the DHCP service, the daemon terminates but restarts when you reboot the system. DHCP data tables are not affected when you stop the service. You can use DHCP Manager or SMF commands to temporarily start and stop the DHCP service without enabling and disabling the service.
 * Why is it important to exercise care when managing services?
-  * ???
+  * Because viruses can easily get in.
 * What is the full path name to the example file name?
   * ???
 * Select Notepad or another program that can read comma-separated files (.csv) to open the file if the
@@ -327,31 +331,32 @@ What does the column farthest to the right show?
   * ???
 ### 11.3.2.7 Lab - System Utilities
 * What was the path you use to navigate to the Event Viewer?
-  * ???
+  * Right click on the Start button and select Event Viewer
+Select the type of logs that you wish to review (ex: Application, System)
 * Right-click the Desktop > select Personalize.
 Question:
 What is the background picture?
-  * ???
+  * Picture
 * What is the data value of the Background (hint – it has three numbers that correspond to red, green, and
 blue)?
-  * ???
+  * These numbers may vary depending on the blue color that was selected for the background color. In the example, the numbers are 10 59 118.
 * What is the data value of the Background?
-  * ???
+  * Answers may vary. 10 59 118 in the example.
 * What is the data value of the Background? Compare the new value in the Registry to the value saved in
 BlueBKG.reg.
-  * ???
+  * 184 40 50
 * What is the data value of the Background?
-  * ???
+  * Answers may vary. The example shows 10 59 118.
 * What is the color of the desktop?
-  * ???
+  * Red.
 * Restart the computer.
 Question:
 What is the color of the desktop?
-  * ???
-* Reflection Question: Why would it be beneficial to add snap-ins to the mmc that are for other computers on the network?
-  * ???
-* Reflection Question: After restarting the computer, why was the desktop color changed?
-  * ???
+  * Blue.
+* __Reflection Question:__ Why would it be beneficial to add snap-ins to the mmc that are for other computers on the network?
+  * Answers may vary. It would make it easy to configure and monitor other computers that do not have monitors, keyboards or mice, or that are not easily accessible.
+* __Reflection Question:__ After restarting the computer, why was the desktop color changed?
+  * Importing the registry file modified the registry to contain a value for the desktop that was not the same as the current value. When the computer started, this value was read from the registry to make the desktop that color.
 ### 11.3.2.8 Lab - Manage System Files
 * Under the System Summary heading locate and list the following:
   * Processor:
@@ -408,6 +413,7 @@ What information is listed on these extra tabs?
 * 
 * 
 ### 11.4.2.7 Lab - File System Commands
+
 ### 11.4.3.2 Lab - Disk CLI Commands
 ### 11.4.4.2 Lab - Task and System CLI Commands
 ### 11.4.5.3 Lab - Other Useful Commands
