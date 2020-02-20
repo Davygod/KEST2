@@ -25,7 +25,14 @@
 * What changes, if any, have been made to the new BIOS version to fix problems?
   * ???
 * What are the instructions to update the new BIOS version?
-  * ???
+  * 1. Open Start. . ...
+    2. Open System Information. ...
+    3. Check your computer's model name. ...
+    4. Find your BIOS version number. ...
+    5. Open your BIOS manufacturer's support site. ...
+    6. Find the BIOS update file. ...
+    7. Make sure the update file is newer than your BIOS version. ...
+    8. Download the update file.
 ### 3.1.2.7 Lab - Install Third-Party Software in Windows
 * What is the default installation location for Packet Tracer?
   * Select the "I accept the agreement" option and click the Next button. The next screen allows us to customize the installation directory. By default, the packet tracer is installed in the "Program File" folder of the Windows partition.
@@ -36,25 +43,27 @@
   * The NTFS file system.
 NTFS (short for New Technology File System) is a modern, well-formed file system that is most commonly used by Windows Vista, 7 & 8. It has feature-rich, yet simple organization that allows it to be used on very large volumes.
 * How much Free Space is shown?
-  * ???
+  * 1.94 GB
 * List the tabs found in the NEW VOLUME (I): Properties window?
-  * ???
+  * General, Tools, Hardware, Sharing, ReadyBoost, Customize
 * What tabs are listed in the ITE Test Document Properties window?
-  * ???
+  * General and Details
 * What happens if you do not run as administrator when you open the command prompt?
   * If you can't run Command Prompt as administrator, the issue might be related to your user account. Sometimes your user account can get corrupted, and that can cause the issue with Command Prompt. Repairing your user account is quite hard, but you can fix the problem simply by creating a new user account.
 * What type of File System is used for the ITE (I:) drive?
-  * ???
+  * NTFS
 * What are the tabs in the ITE (I:) Properties window?
-  * ???
+  * General, Tools, Hardware, Sharing, Security, ReadyBoost, Quota, and Customize.
 * When the volume was FAT32, there were six tabs. What are the names of the new tabs that were added
 after the volume was converted to NTFS?
-  * ???
+  * Security and Quota.
 * What are the tabs in the ITE Test Document Properties window?
-  * ???
+  * General, Security, Details, Previous
 * When the volume was FAT32, there were three tabs. What is the name of the new tab that was added
 after the volume was converted to NTFS?
-  * ???
+  * Security.
+* __Reflection Question:__ Why is there an additional Security tab in the properties window of documents stored on an NTFS volume?
+  * NTFS incorporates additional security features and extended attributes. The security tab provides a way to display and change permissions of the documents.
 ### 11.1.2.10 Lab - Explore the Windows Desktop
 * List some of the icons that are on the Desktop.
   * Microsoft Edge
@@ -63,7 +72,8 @@ after the volume was converted to NTFS?
   * Recycle Bin
   * Spotify
 * What type of information is available on the Desktop and Taskbar?
-  * ???
+  * Google Chrome
+  * LockDown Browser
 * Name a few applications listed in the Start Menu.
   * ???
 * What are some of the available options?
@@ -83,7 +93,7 @@ after the volume was converted to NTFS?
 * What can you do in the Notification & actions Settings window?
   * Change notification settings in Windows 10
 ### 11.1.3.4 Lab - Work with Task Manager
-* To force the web browser to close, highlight the browser, and click End task.
+* To force the web browser to close, highlight the browser, and click __End task__.
 Question:
 What happened?
   * ???
@@ -91,7 +101,7 @@ What happened?
 Question:
 What options are available?
   * ???
-* Click the Services tab. Use the scroll bar on the right side of the Services window to view all the services
+* Click the __Services__ tab. Use the scroll bar on the right side of the __Services__ window to view all the services
 listed
 Question:
 What statuses are listed?
@@ -100,7 +110,7 @@ What statuses are listed?
 Question:
 What are the available actions that can be taken?
   * ???
-* Click the Performance tab. Select CPU to view the utilization in the left panel. Note: There is no CPU
+* Click the __Performance__ tab. Select __CPU__ to view the utilization in the left panel. __Note__: There is no CPU
 option in the Performance tab in Windows 7.
 Questions:
 What is the current utilization of the CPU?
@@ -109,7 +119,7 @@ What is the current utilization of the CPU?
   * ???
 * How many Apps, Background processes, and Windows processes (i.e Processes) are currently running?
   * ???
-* Click on the Memory Chart in the left panel of the Performances tab. Note: There is no CPU option in
+* Click on the __Memory Chart__ in the left panel of the __Performances__ tab. __Note:__ There is no CPU option in
 the Performance tab in Windows 7.
 Question:
 What is the total physical memory (MB)?
@@ -118,21 +128,21 @@ What is the total physical memory (MB)?
   * ???
 * How much physical memory (MB) is being used by the computer?
   * ???
-* Click the Ethernet Chart in the left panel of the Performances tab. Note: There is no Ethernet option in
-the Performance tab in Windows 7. Click the Networking tab in Windows 7 for the Ethernet information.
+* Click the __Ethernet Chart__ in the left panel of the __Performances__ tab. __Note:__ There is no Ethernet option in
+the Performance tab in Windows 7. Click the __Networking__ tab in Windows 7 for the Ethernet information.
 Questions:
 What is the link speed? What type of Ethernet Adapter is in use on this computer?
   * ???
 * What type of network connection (i.e Connection type) is in use?
   * ???
-* What is the IPv4 address of the PC? Note: This information is not available in the Networking tab in
+* What is the IPv4 address of the PC? __Note:__ This information is not available in the Networking tab in
 Windows 7.
   * ???
-* Click the Memory heading. Click the Memory heading a second time.
+* Click the __Memory__ heading. Click the __Memory__ heading a second time.
 Question:
 What effect does this have on the columns?
   * ???
-*  Right-click on the Memory heading, and then select Resource values > Memory > Percents. Note: Resource values options are not available in Windows 7.
+*  Right-click on the __Memory__ heading, and then select __Resource values > Memory > Percents__. __Note:__ Resource values options are not available in Windows 7.
 Questions:
 What affect does this have on the Memory column?
   * ???
@@ -142,20 +152,20 @@ What affect does this have on the Memory column?
   * ???
 * Right-click a username. What are the available options?
   * ???
-* The Startup tab lists the processes that are started automatically during Windows startup. Click the
-Startup tab. Right-click a process and list the available options below.
+* The __Startup__ tab lists the processes that are started automatically during Windows startup. Click the
+__Startup__ tab. Right-click a process and list the available options below.
   * ???
-* The App history tab lists the historical resources usage.
+* The __App history__ tab lists the historical resources usage.
 Question:
 What type of information can you get from this list?
   * ???
 * The Details tab displays process information such as process ID (PID), status, and memory utilization.
 Right-click a process and list the available options below
   * ???
-* Reflection Question: Why is it important for an administrator to understand how to work within the Task Manager?
+* __Reflection Question:__ Why is it important for an administrator to understand how to work within the Task Manager?
   * ???
 ### 11.1.4.11 Lab - Working with File Explorer
-* Move Folder2 into Folder1. Click Folder2 and select Move to > Choose location in the Ribbon Home
+* Move __Folder2__ into __Folder1__. Click Folder2 and select Move __to > Choose location__ in the Ribbon Home
 menu to move Folder2 into Folder1 or you can use your mouse to drag-and-dropFolder2 into Folder1.
 Question:
 What happened with Folder1 and Folder2 on the Desktop?
@@ -166,17 +176,17 @@ What happened with Folder1 and Folder2 on the Desktop?
 Question:
 How would you do it?
   * ???
-* Right-click the text document > click Properties. Click the Details tab.
+* Right-click the text document > click __Properties__. Click the __Details__ tab.
 What are the attributes associated with this file?
   * ???
-* Now create a folder named Folder3 inside Folder2.
+* Now create a folder named __Folder3__ inside __Folder2__.
 Questions:
 What is the complete path to Folder3? (Hint: One way to find this information is in the folder properties.)
   * ???
-* In Windows 8.x and 10, which directories are listed under Folders? (Note: There is no Folders heading in
+* In Windows 8.x and 10, which directories are listed under Folders? (__Note:__ There is no Folders heading in
 Windows Explorer.)
   * ???
-Drag and drop Folder1 onto Quick Access (Windows 10) or Favorites (Windows 7 and 8.x). Question:
+Drag and drop Folder1 onto __Quick Access__ (Windows 10) or __Favorites__ (Windows 7 and 8.x). Question:
 What happened? Why would you want to do this?
   * ???
 * Within the File Explorer or Windows Explorer, navigate to the Local Disk (C:).
@@ -191,7 +201,7 @@ Were you able to open it? Explain.
   * ???
 * Open the folder associated with another username if it is available on the PC.
 Question:
-Were you able to open it? Explain. (Note: Windows 7 does not display other users’ folders.)
+Were you able to open it? Explain. (__Note:__ Windows 7 does not display other users’ folders.)
   * ???
 * Notice the Public folder. This folder is accessible to any local users on the PC. Furthermore, it can be
 configured to be accessible for networked users.
@@ -202,28 +212,43 @@ Open the Public folder. List all the folders in the directory.
 Question:
 Which folders or files listed under the Libraries heading?
   * ???
-* How would you remove the directory of Folder1 from the library without deleting Folder1 and its contents
+* Include Folder1 in the new library, Folder1 on the Desktop can be added to the Libraries. Navigate to the
+Desktop. Right-click __Folder1__ > click __Include in library__ > select the new library you created
+Select the library you created in the left panel. Click the Library Tools tab and select Manage library. Question: How would you remove the directory of Folder1 from the library without deleting Folder1 and its contents
 from the computer?
   * ???
 ### 11.2.1.5 Lab - Explore Control Panel Categories
-* In the Control Panel, click the View by: drop-down box.
+* In the Control Panel, click the __View by:__ drop-down box.
 Question:
 What are the viewing options?
   * ???
-* Select the Categories view as necessary.
+* Select the __Categories__ view as necessary.
 Name a few of the Control Panel categories.
   * ???
-* Which subcategory would help you troubleshoot common problems?
+* Navigate to the __System and Security__ category in the Control Panel. Use the subcategories to answer the
+following questions.
+Questions:
+Which subcategory would help you troubleshoot common problems?
   * ???
-* Which subcategory allow a program through Windows Firewall?
+* The Network and Internet category allows you to view the network status and configure network related
+setting and preferences.
+Question:
+Which subcategory allow a program through Windows Firewall?
   * ???
-* Which subcategory allows you to view the basic network information and set up connections?
+* The Hardware and Sound category allows you to add and configure hardware devices including printers and
+Bluetooth capable devices, customize power options, and adjust sound related settings.
+Questions:
+Which subcategory allows you to view the basic network information and set up connections?
   * ???
 * Which subcategory allows you to choose what happens when you insert a media or device?
   * ???
 * Which subcategory allows you to add a printer?
   * ???
-* Which subcategory would you use to have a specific file type always open in a specified program?
+* The Programs category provides program installation and uninstallation and the selection of specific
+programs that the Windows operating system will use by default. This category also allows you to
+install/uninstall windows features such as remote access and file transfer clients.
+Questions:
+Which subcategory would you use to have a specific file type always open in a specified program?
   * ???
 * Which subcategory would you use to uninstall a program?
   * ???
@@ -231,38 +256,58 @@ Name a few of the Control Panel categories.
   * ???
 * Which subcategory would you use change the account type from administrator to standard?
   * ???
-* Which subcategory would you use to view, edit, or remove the web and Windows credentials?
+* The User Accounts category allows you to adjust user settings, such as account types and change
+passwords.
+Questions:
+Which subcategory would you use to view, edit, or remove the web and Windows credentials?
   * ???
-* Which subcategory would you use to customize the Taskbar?
+* The Appearance and Personalization category allows you to configure the look and feel of Windows, such as
+the taskbar, navigation, and File Explorer options.
+Questions:
+Which subcategory would you use to customize the Taskbar?
   * ???
 * Which subcategory would you use to show hidden files and folders?
   * ???
 * Which subcategory would you use to show extensions for known file types?
   * ???
-* Which subcategory would you use to change the time zone?
+* The Clock and Region category allows you to change the date, time, and region settings in Windows 10. In
+Windows 8.1 and 7, the Clock, Language, and Region category allows you to change the language settings in
+addition to date, time, and region settings.
+Questions:
+Which subcategory would you use to change the time zone?
   * ???
 * Which subcategory would you use to change date format?
   * ???
 * Which subcategory would you use to synchronize the time on a computer with a specific web server on the
 Internet?
   * ???
-* Which subcategory would you use to configure the computer to read aloud any text on the screen?
+* The Ease of Access category allows you to customize the Windows operating system for all types of users.
+This category also provides the configuration of voice control of the computer.
+Questions:
+Which subcategory would you use to configure the computer to read aloud any text on the screen?
   * ???
 * Which subcategory would you use to improve the computer’s ability to understand your voice and improve the
 dictation accuracy?
   * ???
 ### 11.2.2.3 Lab - User Accounts
-* What can a user do with a limited account?
+* The __Create New Account__ window opens. Type the name provided by your instructor in the __Name the
+account and choose an account type__ field and select __Standard user__ as the account type.
+Questions:
+What can a user do with a limited account?
   * A limited user account is, quite simply, access on your computer that allows you to do basic things for your work or day-to-day use. This includes sending emails, writing documents, and getting online. These require basic permissions on the computer. Limited User Accounts are often used by employers.
 * What limitations does this type of an account have?
   * With a limited user account, the user is unable to install software or hardware. Inability to change account name and type. When it comes to changing the type of account or the name on the account, only those with full user accounts or computer administrator accounts can make those changes.
 * What information is listed for the new account?
   * ???
-* What is the advantage of having most users work within a Standard user account?
+* Select __Administrator__ as the account type and click __Change Account Type__.
+Question:
+What is the advantage of having most users work within a Standard user account?
   * Standard accounts are the basic accounts you use for normal everyday tasks. As a Standard user, you can do just about anything you would need to do, such as running software or personalizing your desktop. Standard with Family Safety: These are the only accounts that can have parental controls. What's more using a standard account will prevent most malware and other malicious programs and apps from making changes to your Windows system. And as you can imagine, that makes your system more secure.
-* For this lab, select Delete Files. What are the other options? When would you choose the other options?
+* Select the account to be deleted. Click __Delete the account__.
+Question:
+For this lab, select __Delete Files__. What are the other options? When would you choose the other options?
   * ???
-* Why is it important to protect all accounts with strong passwords?
+* __Reflection Question:__ Why is it important to protect all accounts with strong passwords?
   * A strong password provides essential protection from financial fraud and identity theft. One of the most common ways that hackers break into computers is by guessing passwords. Simple and commonly used passwords enable intruders to easily gain access and control of a computing device.
 * Why would you create a user with Standard privileges?
   * In a nutshell, a user logged into an account with Administrator privileges can do pretty much anything on the computer. He/she can view every file on the system, change system-wide system settings, run all installed programs, add new programs, install new hardware and change the usernames and passwords of other users.
@@ -270,7 +315,7 @@ dictation accuracy?
 user account instead of deleting them?
   * When that user is no longer active.
 ### 11.2.5.8 Lab - Manage Virtual Memory
-* In the Performance Options window, click the Advanced tab.
+* In the __Performance Options__ window, click the __Advanced__ tab.
 Question:
 What is the current size of the virtual memory (paging file)?
   * ???
@@ -280,20 +325,29 @@ What is the current size of the virtual memory (paging file)?
   * ???
 * What Drive [Volume Label] contains the paging file?
   * ???
-* Reflection questions: Why would you ever change the default virtual memory page file settings in Windows?
+* __Reflection questions:__ Why would you ever change the default virtual memory page file settings in Windows?
   * ???
 ### 11.2.6.2 Lab - Use Device Manager 
-* What information is listed in the Device Manager window? Why would you use it?
+* Click __Control Panel__. In the Small icons view, select __Device Manager__.
+Questions
+What information is listed in the Device Manager window? Why would you use it?
   * Batteries, Computer, Disk Drives, Display Adapters, Drives, IDE ATA ATAPI controllers, ect. You would use it if you wanted to change the settings for any of those components.
 * Browse through the menus displayed at the top of the Device Manager window. How would you install
 driver software for an older device that may not be automatically recognized by the Windows operating
 system?
   * ???
-* What additional information does Driver Details provide?
+* In the __Generic Non-PnP Monitor Properties__ window, select the __Driver__ tab. This window displays the
+software driver information that is currently installed for this monitor.
+Question:
+What additional information does Driver Details provide?
   * It provides the Providing company, File version, copyright, digital signer, and the driver files.
-* What two options do you have for updating the driver?
+* Click Update Driver.
+Question:
+What two options do you have for updating the driver?
   * First is to go to the computer makers site and downloading their driver (Dell, HP, Asus,etc). Second is to go to the device makers site. For video nVidia, or ATI, for networking Intel, etc)
-* What does the Roll Back Driver button do? The Roll Back Driver can be grayed out on your computer,
+* From the __Update Driver Software__ window, click __Cancel__ to return to the __Monitor Properties__ window.
+Questions:
+What does the __Roll Back Driver__ button do? The Roll Back Driver can be grayed out on your computer,
 why would it be grayed out?
   * When the Rollback Driver button isn't available (greyed out) it is an indication that a previous driver version has not been installed for that device. Depending on the device it is best to check the device manufacturer's website or ride with the Windows recommendation.
 * What are the other available options?
