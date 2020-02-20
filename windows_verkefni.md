@@ -531,7 +531,7 @@ Were you able to delete the directory? Explain.
 * __Reflection Question:__ What are the advantages of using CLI vs. GUI?
   * ???
 ### 11.4.3.2 Lab - Disk CLI Commands
-* Open the help page the command chkdsk. Enter help chkdsk or chkdsk /? at the prompt to answer the
+* Open the help page the command __chkdsk__. Enter help __chkdsk__ or __chkdsk /?__ at the prompt to answer the
 following questions:
 Questions:
 What is the option to fix errors on the drive?
@@ -540,7 +540,7 @@ What is the option to fix errors on the drive?
   * ???
 * What is the option to locate bad sectors and recover readable information?
   * ???
-* Enter the chkdsk command to check the C:\ drive with the options from the questions in the previous
+* Enter the __chkdsk__ command to check the C:\ drive with the options from the questions in the previous
 step.
 Question:
 What happened? Explain.
