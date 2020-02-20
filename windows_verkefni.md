@@ -379,50 +379,57 @@ why would it be grayed out?
 * What are the other available options?
   * ???
 ### 11.3.1.11 Lab - Monitor and Manage System Resources
-* Scroll to the Computer Management window under the Services heading so you see the Windows
-Defender Antivirus Network Inspection Service (Windows 10) or Windows Defender Service
-(Windows 8.1) or Window Defender (Windows 7).
+* Scroll to the Computer Management window under the Services heading so you see the __Windows
+Defender Antivirus Network Inspection Service__ (Windows 10) or __Windows Defender Service__
+(Windows 8.1) or __Windows Defender__ (Windows 7).
 Question:
 What is the status of the service?
   * ???
-* Look for Windows Defender Antivirus Network Inspection Service (Windows 10) or Windows
-Defender Service (Windows 8.1) or Window Defender (Windows 7). Record the Windows Defender
+* Look for __Windows Defender Antivirus Network Inspection Service__ (Windows 10) or __Windows
+Defender Service__ (Windows 8.1) or __Windows Defender__ (Windows 7). Record the Windows Defender
 status.
   * ???
-* In the General tab, what is listed as the Source of the event? What is the severity level?
+* In the Application or System pane, you can find the most recent events are related to Windows Defender.
+Right-click the interested log, select __Find__. Enter __defender__ to search Windows Defender related entries. In the General tab, what is listed as the Source of the event? What is the severity level?
   * ???
-* In Notepad, click File > Print. Record a listed printer below. Note: You do not need to install a physical
+* In __Notepad__, click __File__ > __Print__. Record a listed printer below. __Note:__ You do not need to install a physical
 printer
   * ???
-* Navigate to Notepad. Attempt to print.
+* Open the Services console. (Control Panel > Administrative Tools > Services). Right-click __Print Spooler__ and select __Stop__. Navigate to __Notepad__. Attempt to print.
 Question:
 What message did you receive? How would you fix this?
   * ???
-* When DHCP Client stops, what other services will also be stopped?
+* In the Services console, search for __DHCP Client__. Right-click __DHCP Client__ and select __Stop__.
+Question:
+When DHCP Client stops, what other services will also be stopped?
   * Start, stop, and restart commands affect the daemon only for the current session. For example, if you stop the DHCP service, the daemon terminates but restarts when you reboot the system. DHCP data tables are not affected when you stop the service. You can use DHCP Manager or SMF commands to temporarily start and stop the DHCP service without enabling and disabling the service.
-* Why is it important to exercise care when managing services?
+* Click __No__ in the __Stop Other Services__ window.
+Question:
+Why is it important to exercise care when managing services?
   * Because viruses can easily get in.
-* What is the full path name to the example file name?
+* Expand __User Defined__ and select __Memory Logs__ in the left pane. Right-click __Data Collector01__ and rightclick __Properties__. In DataCollector01 Properties window, change the Log format: field to __Comma Separated__. Click the __File__ tab.
+Question:
+What is the full path name to the example file name?
   * ???
-* Select Notepad or another program that can read comma-separated files (.csv) to open the file if the
+* Select __Notepad__ or another program that can read comma-separated files (.csv) to open the file if the
 Windows cannot open the file message is displayed.
 Question:
 What does the column farthest to the right show?
   * ???
 ### 11.3.2.7 Lab - System Utilities
-* What was the path you use to navigate to the Event Viewer?
-  * Right click on the Start button and select Event Viewer
+* What was the path you use to navigate to the __Event Viewer__?
+  * Right click on the Start button and select __Event Viewer__
 Select the type of logs that you wish to review (ex: Application, System)
-* Right-click the Desktop > select Personalize.
+* Right-click the __Desktop__ > select __Personalize__.
 Question:
 What is the background picture?
   * Picture
 * What is the data value of the Background (hint – it has three numbers that correspond to red, green, and
 blue)?
   * These numbers may vary depending on the blue color that was selected for the background color. In the example, the numbers are 10 59 118.
-* What is the data value of the Background?
+* What is the data value of the __Background__?
   * Answers may vary. 10 59 118 in the example.
-* What is the data value of the Background? Compare the new value in the Registry to the value saved in
+* What is the data value of the Background? Compare the new value in the __Registry__ to the value saved in
 BlueBKG.reg.
   * 184 40 50
 * What is the data value of the Background?
@@ -447,42 +454,42 @@ What is the color of the desktop?
 * Under the Components heading locate and list the following:
   * __Adapter Description:__
   * __Adapter RAM:__
-* Under the Software Environment heading, where would you find the applications that automatically load
+* Under the __Software Environment__ heading, where would you find the applications that automatically load
 when the computer boots?
   * ???
-* Click the General tab. Question:
+* Click the __General__ tab. Question:
 What are the startup options?
   * ???
-* Click the Services tab. This tab lists the computers services and status.
+* Click the __Services__ tab. This tab lists the computers services and status.
 Question:
 Can you enable and disable services at this tab?
   * ???
-* Click the Tools tab.
+* Click the __Tools__ tab.
 Question:
 What can you do in this tab?
   * ???
-* Make sure the System tab is active.
+* Make sure the __System__ tab is active.
 Question:
 What does this tool report?
   * ???
-* Click Next Page until you are at the Display tab.
+* Click __Next Page__ until you are at the __Display__ tab.
 Question:
 What information is listed on this page?
   * ???
-* Click Next Page until you are at the Sound tab.
+* Click __Next Page__ until you are at the Sound tab.
 Question:
 What information is listed on this page?
   * ???
-* Click Next Page until you are on the Input tab. Question:
+* Click __Next Page__ until you are on the Input tab. Question:
 What information is listed on this page?
   * ???
-* List any additional tabs in your DirectX Diagnostic Tool window below.
+* List any additional tabs in your __DirectX Diagnostic Tool__ window below.
 Question:
 What information is listed on these extra tabs?
   * ???
-* Reflection Question: Why would it be beneficial to turn off a service in the system configuration?
+* __Reflection Question:__ Why would it be beneficial to turn off a service in the system configuration?
   * 
-* Reflection Question: When would you use the startup tab of the system configuration tool?
+* __Reflection Question:__ When would you use the startup tab of the system configuration tool?
   * ???
 ### 11.4.1.5 Lab - Work in the Windows Command Shell
 * To see the next page, press the spacebar. What happens when you press enter?
