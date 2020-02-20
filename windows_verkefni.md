@@ -113,7 +113,7 @@ What are the behavior options for the icons?
 notification area by dragging them from the expanded triangle to the taskbar. For example, you can move
 the battery icon from the expanded triangle to the Taskbar.
 Action Center is a new feature in the notification center in Windows 10. Click the Notification icon in the
-Taskbar > select All settings or click Start > search for Settings. Then click System > click
+Taskbar > select __All settings__ or click __Start__ > search for __Settings__. Then click __System__ > click
 __Notifications & action__
 Question:
 What can you do in the Notification & actions Settings window?
