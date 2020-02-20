@@ -487,11 +487,41 @@ What information is listed on these extra tabs?
 ### 11.4.1.5 Lab - Work in the Windows Command Shell
 * To see the next page, press the spacebar. What happens when you press enter?
   * ???
-* Press q or Ctrl-C to exit after filling out the functions of the following commands:
-  * 
-* 
-* 
-* 
+* Press __q__ or __Ctrl-C__ to exit after filling out the functions of the following commands:
+  * CD:
+  * CHKDSK:
+  * COPY:
+  * DEL:
+  * DIR:
+  * DISKPART:
+  * EXIT:
+  * FORMAT:
+  * GPRESULT:
+  * MD:
+  * TASKLIST:
+  * RD:
+  * ROBOCOPY:
+  * SHUTDOWN:
+  * XCOPY:
+* Use the information provided by help command about __md__.
+Question:
+How would you create these folders __C:\Users\ITEUser\a\b\c__ if your current directory is
+C:\Users\ITEUser?
+  * ???
+* What command would you use to verify the creation of the nested directories?
+  * ???
+* Clear the screen using the command line.
+Question:
+What command did you use?
+  * ???
+* Press __F7__ on the keyboard for the command history.
+Question:
+What is the last command that you have used? Press __Esc__ on the keyboard to exit the dialog box.
+  * ???
+* Press up arrow to display the last command used.
+Question:
+What is the last command?
+  * ???
 ### 11.4.2.7 Lab - File System Commands
 * Type cd at the command prompt.
 Question:
