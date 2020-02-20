@@ -439,14 +439,14 @@ What is the color of the desktop?
   * Importing the registry file modified the registry to contain a value for the desktop that was not the same as the current value. When the computer started, this value was read from the registry to make the desktop that color.
 ### 11.3.2.8 Lab - Manage System Files
 * Under the System Summary heading locate and list the following:
-  * Processor:
-  * BIOS Version/Date:
-  * Total Physical Memory:
+  * __Processor:__
+  * __BIOS Version/Date:__
+  * __Total Physical Memory:__
 * Under the Hardware Resources heading, locate and list the following:
   * DMA channels and the device using the resources:
 * Under the Components heading locate and list the following:
-  * Adapter Description:
-  * Adapter RAM:
+  * __Adapter Description:__
+  * __Adapter RAM:__
 * Under the Software Environment heading, where would you find the applications that automatically load
 when the computer boots?
   * ???
@@ -488,21 +488,21 @@ What information is listed on these extra tabs?
 * To see the next page, press the spacebar. What happens when you press enter?
   * ???
 * Press __q__ or __Ctrl-C__ to exit after filling out the functions of the following commands:
-  * CD:
-  * CHKDSK:
-  * COPY:
-  * DEL:
-  * DIR:
-  * DISKPART:
-  * EXIT:
-  * FORMAT:
-  * GPRESULT:
-  * MD:
-  * TASKLIST:
-  * RD:
-  * ROBOCOPY:
-  * SHUTDOWN:
-  * XCOPY:
+  * __CD:__
+  * __CHKDSK:__
+  * __COPY:__
+  * __DEL:__
+  * __DIR:__
+  * __DISKPART:__
+  * __EXIT:__
+  * __FORMAT:__
+  * __GPRESULT:__
+  * __MD:__
+  * __TASKLIST:__
+  * __RD:__
+  * __ROBOCOPY:__
+  * __SHUTDOWN:__
+  * __XCOPY:__
 * Use the information provided by help command about __md__.
 Question:
 How would you create these folders __C:\Users\ITEUser\a\b\c__ if your current directory is
@@ -527,18 +527,18 @@ What is the last command?
 Question:
 What is the current directory?
   * ???
-* Type cd ITEfolder3 at the command prompt and press Enter.
+* Type __cd ITEfolder3__ at the command prompt and press __Enter__.
 Question:
 Which folder are you in now?
   * ???
-* Create ITEfolder4 in the current directory. Within the ITEfolder4 folder, create a folder named
-ITEfolder5. Use the dir command to verify the folder creation.
+* Create __ITEfolder4__ in the current directory. Within the __ITEfolder4__ folder, create a folder named
+__ITEfolder5__. Use the __dir__ command to verify the folder creation.
 Question:
 What command or commands did you use to create the nested folders?
   * ???
-* Type cd .. to change the current directory. Each .. is a shortcut to move up one level in the directory tree.
+* Type __cd ..__ to change the current directory. Each .. is a shortcut to move up one level in the directory tree.
 Question:
-After issuing the cd .. command, what is your directory now?
+After issuing the __cd ..__ command, what is your directory now?
   * ???
 * What would be the current directory if you issue this command at C:\Users\ITEfolder4?
   * ???
@@ -550,7 +550,7 @@ to remove the files with doc2 in the filename.
 * What command would you use to delete all the files in the directory? Use the command to remove the
 files.
   * ???
-* Use help xcopy or xcopy /? to determine which switch would allow the xcopy command to copy all the
+* Use help __xcopy__ or __xcopy /?__ to determine which switch would allow the xcopy command to copy all the
 files and directories.
 Question:
 What option allows you to copy all the files and directories, including the empty directories?
