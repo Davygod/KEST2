@@ -65,7 +65,9 @@ after the volume was converted to NTFS?
 * __Reflection Question:__ Why is there an additional Security tab in the properties window of documents stored on an NTFS volume?
   * NTFS incorporates additional security features and extended attributes. The security tab provides a way to display and change permissions of the documents.
 ### 11.1.2.10 Lab - Explore the Windows Desktop
-* List some of the icons that are on the Desktop.
+* After logging into Windows, you are presented with the Windows Desktop.
+Questions:
+List some of the icons that are on the Desktop
   * Microsoft Edge
   * Google Chrome
   * eBay
@@ -74,23 +76,47 @@ after the volume was converted to NTFS?
 * What type of information is available on the Desktop and Taskbar?
   * Google Chrome
   * LockDown Browser
-* Name a few applications listed in the Start Menu.
+* Click __Start__. The images show the differences in the Windows Start Menu in the different Windows
+versions
+Question:
+Name a few applications listed in the Start Menu.
   * ???
 * What are some of the available options?
   * ???
-* What are the available options in the Taskbar settings?
+* Right-click the Taskbar to select the __Taskbar settings__.
+__Windows 7:__ Right-click the Taskbar > click __Properties__ to select Taskbar and Start menu Properties.
+__Windows 8.x:__ Right-click the Taskbar > click __Properties__ to select Taskbar and Navigation properties.
+Question:
+What are the available options in the Taskbar settings?
   * ???
-* What are the available options in the Task View settings?
+* Task View is the native virtual desktop feature for Windows 10. This allows you to view multiple desktops
+and used applications at the same time. Click __Task View__. (The icon is normally to the right of the Search
+bar.)
+Question:
+What are the available options in the Task View settings?
   * ???
-* What happened after opening the same application in Desktop 2 that was opened in Desktop 1?
+* In the Task View, create a new desktop. Navigate to Desktop 1 and open an application in Desktop 1. Open the same application in Desktop 2 that was opened in Desktop 1.
+Question:
+What happened?
   * ???
-* List some examples of system information below.
+* The Notification area on the right edge of the Taskbar provides system information.
+List some examples of system information below.
   * ???
-* What are the behavior options for the icons?
+* In Windows 7 and 8.x, you can customize the Notification Area. Click the triangle > __Customize__ or click
+__Start__ > navigate to __Control Panel__ > __Notification Area Icons__.
+Questions:
+What are the behavior options for the icons?
   * ???
-* Click Turn system icons on or off. List the system icons that can be enabled.
+* Click __Turn system icons on or off__. List the system icons that can be enabled.
   * ???
-* What can you do in the Notification & actions Settings window?
+* In Windows 7, 8.x, and 10, click the triangle, try to rearrange the icons or add/remove icons from the
+notification area by dragging them from the expanded triangle to the taskbar. For example, you can move
+the battery icon from the expanded triangle to the Taskbar.
+Action Center is a new feature in the notification center in Windows 10. Click the Notification icon in the
+Taskbar > select All settings or click Start > search for Settings. Then click System > click
+__Notifications & action__
+Question:
+What can you do in the Notification & actions Settings window?
   * Change notification settings in Windows 10
 ### 11.1.3.4 Lab - Work with Task Manager
 * To force the web browser to close, highlight the browser, and click __End task__.
