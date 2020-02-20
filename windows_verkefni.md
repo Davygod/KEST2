@@ -523,7 +523,7 @@ Question:
 What is the last command?
   * ???
 ### 11.4.2.7 Lab - File System Commands
-* Type cd at the command prompt.
+* Type __cd__ at the command prompt.
 Question:
 What is the current directory?
   * ???
@@ -592,7 +592,7 @@ Question:
 What is the maximum number of reclaimable bytes?
   * ???
 ### 11.4.4.2 Lab - Task and System CLI Commands
-* Open a command prompt. At the prompt, enter the __tasklist__ command. Question:
+* Open a command prompt. At the prompt, enter the __tasklist__ command. C:\Users\ITEUser> __tasklist__ Question:
 What command would you use to display the results of tasklist one page at a time?
   * ???
 * Enter the tasklist help command to review the syntax and options for the tasklist command. Questions:
@@ -635,9 +635,9 @@ Question:
 When does the password expire?
   * ???
 * Record the network resource information provided by your instructor.
-  * Network Resource:
-  * Username:
-  * Password:
+  * __Network Resource:__
+  * __Username:__
+  * __Password:__
 * Use the __net use__ command to verify the newly connected resource. Question:
 What is the local drive letter assigned to the connected resource?
   * ???
