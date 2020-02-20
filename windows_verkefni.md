@@ -445,10 +445,164 @@ files and directories.
 Question:
 What option allows you to copy all the files and directories, including the empty directories?
   * ???
+* Use the __rd ITEfolder1__ to delete the directory. Verify the directory removal using the __dir__ command.
+Were you able to delete the directory? Explain.
+  * ???
 * __Reflection Question:__ What are the advantages of using CLI vs. GUI?
   * ???
 ### 11.4.3.2 Lab - Disk CLI Commands
+* Open the help page the command chkdsk. Enter help chkdsk or chkdsk /? at the prompt to answer the
+following questions:
+Questions:
+What is the option to fix errors on the drive?
+  * ???
+* What is the option to force the volume to dismount first if necessary?
+  * ???
+* What is the option to locate bad sectors and recover readable information?
+  * ???
+* Enter the chkdsk command to check the C:\ drive with the options from the questions in the previous
+step.
+Question:
+What happened? Explain.
+  * ???
+* Note that the volume will be checked when the system restarts that next time because the volume is in
+use and it cannot be checked at this time.
+Question:
+What is the file system of the drive?
+  * ???
+* Enter __list disk__ at the __DISKPART>__ prompt to list all the disks in the PC. Question:
+Enter __list partition__ to list all the partitions on the disk. How many partitions are on the disk?
+  * ???
+* Review the __shrink__ command. Enter __help shrink__ at the DISKPART prompt. Question:
+What option is used to determine the maximum number of bytes that the volume can be shrink by?
+  * ???
+* Use the __shrink__ command with the option __querymax__ to determine the maximum number of bytes that the
+volume can be shrink by.
+Question:
+What is the maximum number of reclaimable bytes?
+  * ???
 ### 11.4.4.2 Lab - Task and System CLI Commands
+* Open a command prompt. At the prompt, enter the __tasklist__ command. Question:
+What command would you use to display the results of tasklist one page at a time?
+  * ???
+* Enter the tasklist help command to review the syntax and options for the tasklist command. Questions:
+What is the option to list the modules that are associated with a task?
+  * ???
+* What command would you use if you want to find all the tasks that use the module oleaut32.dll? List a
+few tasks that uses oleaut32.dll.
+  * ???
+* Using the options available with tasklist, you can filter the tasklist results for specific image name, such as
+notepad.exe for notepad. Record the PID for the next step. Questions:
+What command would you use to find out all the tasks that are associated with your username?
+  * ???
+* What command would you use to find out all the processes that have been running for more than 1 hour
+and 40 minutes?
+  * ???
+* Use the taskkill help command to review the command syntax and the available options. Question:
+What command would you use if you wanted to terminate all process owned by a particular user?
+  * ???
+* Open a command prompt with administrative privileges. Review the syntax and options of the sfc command. Question:
+What option would you use if you only wanted to scan the integrity of all the protected system files?
+  * ???
+* To make easier to read, you can format the output into a table by adding __/format:table__ option. Question:
+What would you add to the command so you can view the output one page at a time?
+  * ???
+* In a command prompt, enter __shutdown__ at the prompt. Review the syntax and available options for
+shutting down the computer via the command line. Notice the options to shut down or restart a remote computer, add comments regarding the reason for
+restart or shutdown, and the ability to set a time-out period before the shutdown.
+Question:
+Enter the command to log off your computer. Record the command below.
+  * ???
+* Log back into the computer and shut it down in 120 seconds using the command line.
+Questions:
+Record the command below. What warning message did you see?
+  * ???
+* What command would you use to abort the shutdown?
+  * ???
 ### 11.4.5.3 Lab - Other Useful Commands
+* Use the __net user__ command to verify the user has been created.
+Question:
+When does the password expire?
+  * ???
+* Record the network resource information provided by your instructor.
+  * Network Resource:
+  * Username:
+  * Password:
+* Use the __net use__ command to verify the newly connected resource. Question:
+What is the local drive letter assigned to the connected resource?
+  * ???
 ### Hópverkefni: 11.5.2.4 Lab - Share Resources
+* Click __Start > Control Panel > System__.
+Questions:
+What is the name of your computer? Provide your computer name and shared folder name to your
+partner.
+  * ???
+* What is the name of your partner’s computer and shared folder from your partner?
+  * ???
+* Click __Start__ > enter the shared folder name, for example, \\PartnerComputer\ShareXX. Notice that
+PartnerComputer is the name of your partner’s computer and ShareXX is the name of the shared folder.
+When you have successfully accessed the resource, the content in the folder __ShareXX__ is displayed.
+Questions:
+Can you open the __Brief__ file?
+  * ???
+* Can you delete the __Brief file__? What happens?
+  * ???
+* Right-click the __ShareXX__ folder, and then choose __Properties__ > select the __Sharing__ tab > click __Advanced
+Sharing__ > click __Permissions__.
+Questions:
+What are the default permissions?
+  * ???
+* What needs to be changed to allow any remote users to make changes in the ShareXX folder?
+  * ???
+* Can you open the __Brief__ file?
+  * ???
+* Can you delete the __Brief__ file? What happens?
+* What can you do to assign a drive letter to your partner’s shared folder?
+  * ???
 ### Hópverkefni: 11.5.6.2 Lab - Windows Remote Desktop and Assistance
+* a. Click __Start__ and search for __remote desktop settings__.
+b. Click the __Enable Remote Desktop__ button to the __On__ position. You may be prompted with a message to
+confirm enabling remote desktop. Click __Confirm__. When Remote Desktop is enabled, you will have access
+to more settings related to Remote Desktop connections.
+c. Scroll down to How to connect to this PC.
+Question:
+Record the name of this computer.
+  * ???
+* Click __Advanced settings__.
+Question:
+What is the current Remote Desktop Port?
+  * ???
+* You can also use this computer’s IP address for Remote Desktop connection. Record the IP address.
+Question:
+What CLI command would you use to get the IP address?
+  * ???
+* Add a local user to your computer using your preferred method based on the Windows version. This new user
+will not be associated with online Microsoft accounts. Create a username and password combination and
+record it below:
+  * Username: 
+  * Password: 
+* You will also be prompted with a message if another user is currently logged into the computer. The
+message will let you know another user is signed onto the computer and the user will be disconnected, do
+you want to sign in? Click __Yes__. Question:
+What message is displayed on the remote computer and how much time is mentioned?
+  * ???
+* Click __Advanced__. The default amount of time invitations can be increased to is as many as 99 days or as
+little as 1 minute.
+Question:
+What is the default amount of time remote assistance invitations remain open?
+  * ???
+* Click __Save this invitation as a file__. Save the file in a directory of your choice. After the file is saved, a
+Windows Remote Assistance popup window will open with the invitation password to give to your trusted
+helper.
+Question:
+What are the ways to send an invitation to a trusted person with Remote Assistance?
+  * ???
+* __Reflection Questions__
+  1. What type of scenarios are most appropriate for Remote Assistance in contrast with Remote Desktop?
+    * ???
+  2. How many simultaneous users can access a Windows computer at a single time?
+    * ???
+  3. What type of security components are implemented with Windows Remote Desktop?
+    * ???
+  4. How could remote desktop be used as a beneficial technology in the workplace?
+    * ???
