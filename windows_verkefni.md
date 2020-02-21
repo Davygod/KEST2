@@ -492,7 +492,9 @@ What information is listed on these extra tabs?
 * __Reflection Question:__ When would you use the startup tab of the system configuration tool?
   * ???
 ### 11.4.1.5 Lab - Work in the Windows Command Shell
-* To see the next page, press the spacebar. What happens when you press enter?
+* At the command prompt, type __help__ and press __Enter__. A list of commands is displayed. The results from the help command are too long to display on one page so you can only readily see the
+last portion. To allow you to see it one page at a time, enter the command __help | more__ at the prompt. The
+__more__ command can paginate the results of another command when combining with | (pipe) and __more__. To see the next page, press the spacebar. What happens when you press enter?
   * ???
 * Press __q__ or __Ctrl-C__ to exit after filling out the functions of the following commands:
   * __CD:__ change the current directory (i.e., the directory in which the user is currently working) in Linux and other Unix-like operating systems
