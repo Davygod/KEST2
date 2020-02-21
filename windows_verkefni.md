@@ -446,7 +446,7 @@ What is the color of the desktop?
   * Importing the registry file modified the registry to contain a value for the desktop that was not the same as the current value. When the computer started, this value was read from the registry to make the desktop that color.
 ### 11.3.2.8 Lab - Manage System Files
 * Under the System Summary heading locate and list the following:
-  * __Processor:__
+  * __Processor:__ 
   * __BIOS Version/Date:__
   * __Total Physical Memory:__
 * Under the Hardware Resources heading, locate and list the following:
@@ -495,21 +495,21 @@ What information is listed on these extra tabs?
 * To see the next page, press the spacebar. What happens when you press enter?
   * ???
 * Press __q__ or __Ctrl-C__ to exit after filling out the functions of the following commands:
-  * __CD:__
-  * __CHKDSK:__
-  * __COPY:__
-  * __DEL:__
-  * __DIR:__
-  * __DISKPART:__
-  * __EXIT:__
-  * __FORMAT:__
-  * __GPRESULT:__
-  * __MD:__
-  * __TASKLIST:__
+  * __CD:__ change the current directory (i.e., the directory in which the user is currently working) in Linux and other Unix-like operating systems
+  * __CHKDSK:__ check a specified disk and repair or recover data on the drive if necessary
+  * __COPY:__ copies computer files from one directory to another
+  * __DEL:__ delete one or more files or directories from a file system
+  * __DIR:__ lists all files and subdirectories contained in a specific directory
+  * __DISKPART:__ manage partitions of hard disks, USB flash drives, etc., including creating partitions, deleting partitions, merging (expanding) partitions, and so on
+  * __EXIT:__ causes the shell or program to terminate.
+  * __FORMAT:__ format a specified partition on a hard drive (internal or external), flash drive, or floppy disk to a specified file system
+  * __GPRESULT:__ shows the Resultant Set of Policy (RsoP) information for a user and computer. In other words, it creates a report that displays what group policies objects are applied to a user and computer
+  * __MD:__ an alias for mkdir 
+  * __TASKLIST:__ display a list of currently-running tasks
   * __RD:__
-  * __ROBOCOPY:__
-  * __SHUTDOWN:__
-  * __XCOPY:__
+  * __ROBOCOPY:__ a command-line directory and/or file replication command for Microsoft Windows
+  * __SHUTDOWN:__ powers off, restarts, logs off, or hibernates your own computer
+  * __XCOPY:__ copy one or more files or folders from one location to another location
 * Use the information provided by help command about __md__.
 Question:
 How would you create these folders __C:\Users\ITEUser\a\b\c__ if your current directory is
