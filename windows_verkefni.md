@@ -17,9 +17,9 @@
 * Who is the manufacturer of the BIOS?
   * Major BIOS manufacturers include: American Megatrends Inc. (AMI) Phoenix Technologies.
 * Which BIOS version is installed in your computer?
-  * Insyde Corp. V1.14
+  * Insyde Corp. V1.14, 2.3.2018
 * What is the current BIOS version available for the motherboard?
-  * ???
+  * 56511114
 * What features, if any, have been added to the new BIOS version?
   * ???
 * What changes, if any, have been made to the new BIOS version to fix problems?
@@ -43,11 +43,11 @@
   * The NTFS file system.
 NTFS (short for New Technology File System) is a modern, well-formed file system that is most commonly used by Windows Vista, 7 & 8. It has feature-rich, yet simple organization that allows it to be used on very large volumes.
 * How much Free Space is shown?
-  * 1.94 GB
+  * 408 GB
 * List the tabs found in the NEW VOLUME (I): Properties window?
-  * General, Tools, Hardware, Sharing, ReadyBoost, Customize
+  * ???
 * What tabs are listed in the ITE Test Document Properties window?
-  * General and Details
+  * General, Security, Previous Versions,  Quota, Tools, Hardware, Sharing.
 * What happens if you do not run as administrator when you open the command prompt?
   * If you can't run Command Prompt as administrator, the issue might be related to your user account. Sometimes your user account can get corrupted, and that can cause the issue with Command Prompt. Repairing your user account is quite hard, but you can fix the problem simply by creating a new user account.
 * What type of File System is used for the ITE (I:) drive?
