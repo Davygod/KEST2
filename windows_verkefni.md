@@ -189,7 +189,7 @@ What type of information can you get from this list?
 Right-click a process and list the available options below
   * ???
 * __Reflection Question:__ Why is it important for an administrator to understand how to work within the Task Manager?
-  * ???
+  * It provides information about memory, CPU usage, and processes. It also allows the administrator to control process priority levels, and provides a way to end tasks or cancel processes.
 ### 11.1.4.11 Lab - Working with File Explorer
 * Move __Folder2__ into __Folder1__. Click Folder2 and select Move __to > Choose location__ in the Ribbon Home
 menu to move Folder2 into Folder1 or you can use your mouse to drag-and-dropFolder2 into Folder1.
@@ -488,7 +488,7 @@ Question:
 What information is listed on these extra tabs?
   * ???
 * __Reflection Question:__ Why would it be beneficial to turn off a service in the system configuration?
-  * 
+  * It may be beneficial to turn off a service if that service may have become unresponsive, or if a service is using too many resources. Answers may vary. There may be programs that you do not wish to start when the computer boots.
 * __Reflection Question:__ When would you use the startup tab of the system configuration tool?
   * ???
 ### 11.4.1.5 Lab - Work in the Windows Command Shell
