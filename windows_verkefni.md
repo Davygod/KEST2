@@ -459,9 +459,9 @@ What is the color of the desktop?
   * Importing the registry file modified the registry to contain a value for the desktop that was not the same as the current value. When the computer started, this value was read from the registry to make the desktop that color.
 ### 11.3.2.8 Lab - Manage System Files
 * Under the System Summary heading locate and list the following:
-  * __Processor:__ 
-  * __BIOS Version/Date:__
-  * __Total Physical Memory:__
+  * __Processor:__ Processor	Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, 2904 Mhz, 2 Core(s), 4 Logical Processor(s)
+  * __BIOS Version/Date:__ Insyde Corp. V1.14, 2.3.2018
+  * __Total Physical Memory:__ 7.89 GB
 * Under the Hardware Resources heading, locate and list the following:
   * DMA channels and the device using the resources:
 * Under the Components heading locate and list the following:
@@ -529,7 +529,7 @@ __more__ command can paginate the results of another command when combining with
 Question:
 How would you create these folders __C:\Users\ITEUser\a\b\c__ if your current directory is
 C:\Users\ITEUser?
-  * ???
+  * mkdir -p \a\b\c\
 * What command would you use to verify the creation of the nested directories?
   * ???
 * Clear the screen using the command line.
@@ -581,13 +581,13 @@ What option allows you to copy all the files and directories, including the empt
 Were you able to delete the directory? Explain.
   * ???
 * __Reflection Question:__ What are the advantages of using CLI vs. GUI?
-  * ???
+  * Overall, a GUI is used by more users today than a CLI. Dedicated and hard core programmers may lean towards using a CLI for efficiency and speed, but the GUI is more user-friendly and preferred by most users.
 ### 11.4.3.2 Lab - Disk CLI Commands
 * Open the help page the command __chkdsk__. Enter help __chkdsk__ or __chkdsk /?__ at the prompt to answer the
 following questions:
 Questions:
 What is the option to fix errors on the drive?
-  * ???
+  * To __fix disk errors__, you can use the Chkdsk tool found in Windows operating systems. Chkdsk (Chkdsk.exe) is a __command__-line tool that creates and displays a status report for the __disk__ by checking volumes for problems.
 * What is the option to force the volume to dismount first if necessary?
   * ???
 * What is the option to locate bad sectors and recover readable information?
