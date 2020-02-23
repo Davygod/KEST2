@@ -80,7 +80,10 @@ List some of the icons that are on the Desktop
 versions
 Question:
 Name a few applications listed in the Start Menu.
-  * ???
+  * Apps and features
+  * Mobility Center
+  * Power Options
+  * Event Viewer
 * What are some of the available options?
   * ???
 * Right-click the Taskbar to select the __Taskbar settings__.
@@ -88,7 +91,10 @@ __Windows 7:__ Right-click the Taskbar > click __Properties__ to select Taskbar 
 __Windows 8.x:__ Right-click the Taskbar > click __Properties__ to select Taskbar and Navigation properties.
 Question:
 What are the available options in the Taskbar settings?
-  * ???
+  * Taskbar
+  * Notification area
+  * Multiple displays
+  * People
 * Task View is the native virtual desktop feature for Windows 10. This allows you to view multiple desktops
 and used applications at the same time. Click __Task View__. (The icon is normally to the right of the Search
 bar.)
@@ -214,7 +220,7 @@ Windows Explorer.)
   * ???
 Drag and drop Folder1 onto __Quick Access__ (Windows 10) or __Favorites__ (Windows 7 and 8.x). Question:
 What happened? Why would you want to do this?
-  * ???
+  * After dropping Folder1 onto __Quick Access__ it can be used as a shortcut.
 * Within the File Explorer or Windows Explorer, navigate to the Local Disk (C:).
 Question:
 What are folders listed in the Local Disk (C:)?
@@ -250,26 +256,33 @@ What are the viewing options?
   * ???
 * Select the __Categories__ view as necessary.
 Name a few of the Control Panel categories.
-  * ???
+  * Appearance and Personalization
+  * Clock, Language, and Region
+  * Ease of Access
+  * Hardware and Sound
+  * Network and Internet
+  * Programs
+  * System and Security
+  * User Accounts
 * Navigate to the __System and Security__ category in the Control Panel. Use the subcategories to answer the
 following questions.
 Questions:
 Which subcategory would help you troubleshoot common problems?
-  * ???
+  * Navigate to Control Panel > System and Security > __Troubleshoot Common__ Computer __Problems__.
 * The Network and Internet category allows you to view the network status and configure network related
 setting and preferences.
 Question:
 Which subcategory allow a program through Windows Firewall?
-  * ???
+  * If you're using __Windows 10__, click __Allow an app__ or feature through Windows Firewall.
 * The Hardware and Sound category allows you to add and configure hardware devices including printers and
 Bluetooth capable devices, customize power options, and adjust sound related settings.
 Questions:
 Which subcategory allows you to view the basic network information and set up connections?
-  * ???
+  * Network and Internet Network and Sharing Center.
 * Which subcategory allows you to choose what happens when you insert a media or device?
   * ???
 * Which subcategory allows you to add a printer?
-  * ???
+  * The Hardware and Sound category.
 * The Programs category provides program installation and uninstallation and the selection of specific
 programs that the Windows operating system will use by default. This category also allows you to
 install/uninstall windows features such as remote access and file transfer clients.
@@ -495,7 +508,7 @@ What information is listed on these extra tabs?
 * At the command prompt, type __help__ and press __Enter__. A list of commands is displayed. The results from the help command are too long to display on one page so you can only readily see the
 last portion. To allow you to see it one page at a time, enter the command __help | more__ at the prompt. The
 __more__ command can paginate the results of another command when combining with | (pipe) and __more__. To see the next page, press the spacebar. What happens when you press enter?
-  * ???
+  * It adds one more information each time you press enter?
 * Press __q__ or __Ctrl-C__ to exit after filling out the functions of the following commands:
   * __CD:__ change the current directory (i.e., the directory in which the user is currently working) in Linux and other Unix-like operating systems
   * __CHKDSK:__ check a specified disk and repair or recover data on the drive if necessary
@@ -535,7 +548,7 @@ What is the last command?
 * Type __cd__ at the command prompt.
 Question:
 What is the current directory?
-  * ???
+  * C:\Users\david>
 * Type __cd ITEfolder3__ at the command prompt and press __Enter__.
 Question:
 Which folder are you in now?
