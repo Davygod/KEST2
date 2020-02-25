@@ -107,7 +107,9 @@ What happened?
   * ???
 * The Notification area on the right edge of the Taskbar provides system information.
 List some examples of system information below.
-  * ???
+  * Settings
+  * Focus assist
+  * Skype
 * In Windows 7 and 8.x, you can customize the Notification Area. Click the triangle > __Customize__ or click
 __Start__ > navigate to __Control Panel__ > __Notification Area Icons__.
 Questions:
@@ -137,11 +139,17 @@ What options are available?
 listed
 Question:
 What statuses are listed?
-  * ???
+  * Running
+  * Stopped
 * Right-click on one of the services listed.
 Question:
 What are the available actions that can be taken?
-  * ???
+  * Start
+  * Stop
+  * Restart
+  * Open Services
+  * Search Online
+  * Go to details
 * Click the __Performance__ tab. Select __CPU__ to view the utilization in the left panel. __Note__: There is no CPU
 option in the Performance tab in Windows 7.
 Questions:
@@ -253,7 +261,9 @@ from the computer?
 * In the Control Panel, click the __View by:__ drop-down box.
 Question:
 What are the viewing options?
-  * ???
+  * Category
+  * Large Icons
+  * Small Icons
 * Select the __Categories__ view as necessary.
 Name a few of the Control Panel categories.
   * Appearance and Personalization
@@ -288,13 +298,16 @@ programs that the Windows operating system will use by default. This category al
 install/uninstall windows features such as remote access and file transfer clients.
 Questions:
 Which subcategory would you use to have a specific file type always open in a specified program?
-  * ???
+  * By changing it to a __default program__.
 * Which subcategory would you use to uninstall a program?
-  * ???
+  * By right-clicking it in the __Start Menu__ but it won't work on __Default programs__.
 * Which subcategory would you use to install the Windows telnet client?
-  * ???
+  1. Press the Windows button to open your Start menu.
+  2. Open Control Panel > Programs and Features
+  3. Now click on Turn Windows Features On or Off
+  4. Find the Telnet Client in the list and check it. Click on OK to save the changes.
 * Which subcategory would you use change the account type from administrator to standard?
-  * ???
+  * Go to __Settings__> click __Accounts__> then click Family & other users > Find __Other users__ and you'll find your account > Click it and change it from Administrator to Standard.
 * The User Accounts category allows you to adjust user settings, such as account types and change
 passwords.
 Questions:
