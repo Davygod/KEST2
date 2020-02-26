@@ -209,7 +209,10 @@ What affect does this have on the Memory column?
 * How could this be useful?
   * No answer
 * The listed processes are divided by categories. What categories are listed?
-  * No answer
+  * CPU
+  * Memory
+  * Disk
+  * Network
 * Right-click a username. What are the available options?
   * Expand
   * Disconnect
@@ -239,54 +242,68 @@ Right-click a process and list the available options below
 menu to move Folder2 into Folder1 or you can use your mouse to drag-and-dropFolder2 into Folder1.
 Question:
 What happened with Folder1 and Folder2 on the Desktop?
-  * ???
+  * Folder got dropped into Folder1
 * What is the file extension for the text document?
-  * ???
+  * .txt - Plain text file.
 * Make a copy of the text document and place it in Folder2.
 Question:
 How would you do it?
-  * ???
+  * By right-clicking the text document and choose copy and then paste it into Folder2
 * Right-click the text document > click __Properties__. Click the __Details__ tab.
 What are the attributes associated with this file?
-  * ???
+  * Author
+  * Last saved by
 * Now create a folder named __Folder3__ inside __Folder2__.
 Questions:
 What is the complete path to Folder3? (Hint: One way to find this information is in the folder properties.)
-  * ???
+  * ThisPC > Acer(C): > Documents > Folder1 > Folder2 > Folder3
 * In Windows 8.x and 10, which directories are listed under Folders? (__Note:__ There is no Folders heading in
 Windows Explorer.)
-  * ???
+  * No directories
 Drag and drop Folder1 onto __Quick Access__ (Windows 10) or __Favorites__ (Windows 7 and 8.x). Question:
 What happened? Why would you want to do this?
   * After dropping Folder1 onto __Quick Access__ it can be used as a shortcut.
 * Within the File Explorer or Windows Explorer, navigate to the Local Disk (C:).
 Question:
-What are folders listed in the Local Disk (C:)?
-  * ???
+What folders are listed in the Local Disk (C:)?
+  * Intel
+  * logs
+  * OEM
+  * Program Files
 * Open the Users folder. List all the folders in the directory.
-  * ???
+  * david
+  * Default
+  * defaultuser0
+  * Public
 * Open the folder associated with your username.
 Question:
 Were you able to open it? Explain.
-  * ???
+  * Yes, because I'm this folder's owner
 * Open the folder associated with another username if it is available on the PC.
 Question:
 Were you able to open it? Explain. (__Note:__ Windows 7 does not display other users’ folders.)
-  * ???
+  * No, because it doesn't belong to me
 * Notice the Public folder. This folder is accessible to any local users on the PC. Furthermore, it can be
 configured to be accessible for networked users.
 Question:
 Open the Public folder. List all the folders in the directory.
-  * ???
+  * App Explorer
+  * Libraries
+  * Public Documents
+  * Public Downloads
+  * Public Music
+  * Public Pictures
+  * Public Videos
+  * Symantec
 * Expand the Libraries.
 Question:
 Which folders or files listed under the Libraries heading?
-  * ???
+  * Recorded TV
 * Include Folder1 in the new library, Folder1 on the Desktop can be added to the Libraries. Navigate to the
 Desktop. Right-click __Folder1__ > click __Include in library__ > select the new library you created
 Select the library you created in the left panel. Click the Library Tools tab and select Manage library. Question: How would you remove the directory of Folder1 from the library without deleting Folder1 and its contents
 from the computer?
-  * ???
+  * By using the cut-command on it and paste it someplace else
 ### 11.2.1.5 Lab - Explore Control Panel Categories
 * In the Control Panel, click the __View by:__ drop-down box.
 Question:
@@ -320,9 +337,9 @@ Questions:
 Which subcategory allows you to view the basic network information and set up connections?
   * Network and Internet Network and Sharing Center.
 * Which subcategory allows you to choose what happens when you insert a media or device?
-  * ???
+  * Windows Firewall
 * Which subcategory allows you to add a printer?
-  * The Hardware and Sound category.
+  * Devices and Printers
 * The Programs category provides program installation and uninstallation and the selection of specific
 programs that the Windows operating system will use by default. This category also allows you to
 install/uninstall windows features such as remote access and file transfer clients.
@@ -342,35 +359,36 @@ Which subcategory would you use to have a specific file type always open in a sp
 passwords.
 Questions:
 Which subcategory would you use to view, edit, or remove the web and Windows credentials?
-  * ???
+  * Credential Manager
 * The Appearance and Personalization category allows you to configure the look and feel of Windows, such as
 the taskbar, navigation, and File Explorer options.
 Questions:
 Which subcategory would you use to customize the Taskbar?
-  * ???
+  * Taskbar and Navigation
 * Which subcategory would you use to show hidden files and folders?
-  * ???
+  * File Explorer Options
 * Which subcategory would you use to show extensions for known file types?
-  * ???
+  * File Explorer Options
 * The Clock and Region category allows you to change the date, time, and region settings in Windows 10. In
 Windows 8.1 and 7, the Clock, Language, and Region category allows you to change the language settings in
 addition to date, time, and region settings.
 Questions:
 Which subcategory would you use to change the time zone?
-  * ???
+  * Date & Time
 * Which subcategory would you use to change date format?
-  * ???
+  * Region
 * Which subcategory would you use to synchronize the time on a computer with a specific web server on the
 Internet?
-  * ???
+  * Region
 * The Ease of Access category allows you to customize the Windows operating system for all types of users.
 This category also provides the configuration of voice control of the computer.
 Questions:
 Which subcategory would you use to configure the computer to read aloud any text on the screen?
-  * ???
+  * Ease of Access Center
 * Which subcategory would you use to improve the computer’s ability to understand your voice and improve the
 dictation accuracy?
-  * ???
+  * Ease of Access Center
+  * Speach Recognition
 ### 11.2.2.3 Lab - User Accounts
 * The __Create New Account__ window opens. Type the name provided by your instructor in the __Name the
 account and choose an account type__ field and select __Standard user__ as the account type.
