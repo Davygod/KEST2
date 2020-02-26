@@ -85,26 +85,33 @@ Name a few applications listed in the Start Menu.
   * Power Options
   * Event Viewer
 * What are some of the available options?
-  * ???
+  * File Explorer
+  * Word
+  * Visual Studio Code
+  * Arduino
 * Right-click the Taskbar to select the __Taskbar settings__.
 __Windows 7:__ Right-click the Taskbar > click __Properties__ to select Taskbar and Start menu Properties.
 __Windows 8.x:__ Right-click the Taskbar > click __Properties__ to select Taskbar and Navigation properties.
 Question:
 What are the available options in the Taskbar settings?
+  * Background
+  * Colors
+  * Lockscreen
+  * Themes
+  * Fonts
+  * Start
   * Taskbar
-  * Notification area
-  * Multiple displays
-  * People
 * Task View is the native virtual desktop feature for Windows 10. This allows you to view multiple desktops
 and used applications at the same time. Click __Task View__. (The icon is normally to the right of the Search
 bar.)
 Question:
 What are the available options in the Task View settings?
-  * ???
+  * New Desktop
+  * Search
 * In the Task View, create a new desktop. Navigate to Desktop 1 and open an application in Desktop 1. Open the same application in Desktop 2 that was opened in Desktop 1.
 Question:
 What happened?
-  * ???
+  * The application is different in Desktop 2 since it's never been opened there before.
 * The Notification area on the right edge of the Taskbar provides system information.
 List some examples of system information below.
   * Settings
@@ -114,9 +121,16 @@ List some examples of system information below.
 __Start__ > navigate to __Control Panel__ > __Notification Area Icons__.
 Questions:
 What are the behavior options for the icons?
-  * ???
+  * Cut
+  * Copy
+  * Delete
+  * Create shortcut
+  * Rename
 * Click __Turn system icons on or off__. List the system icons that can be enabled.
-  * ???
+  * Clock
+  * Battery
+  * Volume
+  * Network
 * In Windows 7, 8.x, and 10, click the triangle, try to rearrange the icons or add/remove icons from the
 notification area by dragging them from the expanded triangle to the taskbar. For example, you can move
 the battery icon from the expanded triangle to the Taskbar.
@@ -130,17 +144,22 @@ What can you do in the Notification & actions Settings window?
 * To force the web browser to close, highlight the browser, and click __End task__.
 Question:
 What happened?
-  * ???
+  * The browser closed.
 * Open the web browser again. Right-click the web browser in the Task Manager.
 Question:
 What options are available?
-  * ???
+  * Expand
+  * Switch to
+  * End task
+  * Search online
 * Click the __Services__ tab. Use the scroll bar on the right side of the __Services__ window to view all the services
 listed
 Question:
 What statuses are listed?
-  * Running
-  * Stopped
+  * Windows Explorer
+  * System
+  * Start
+  * Skype
 * Right-click on one of the services listed.
 Question:
 What are the available actions that can be taken?
@@ -154,54 +173,65 @@ What are the available actions that can be taken?
 option in the Performance tab in Windows 7.
 Questions:
 What is the current utilization of the CPU?
-  * ???
+  * 7%
 * How many streams of instructions (i.e. Threads) are currently running?
-  * ???
+  * 2835
 * How many Apps, Background processes, and Windows processes (i.e Processes) are currently running?
-  * ???
+  * 227
 * Click on the __Memory Chart__ in the left panel of the __Performances__ tab. __Note:__ There is no CPU option in
 the Performance tab in Windows 7.
 Question:
 What is the total physical memory (MB)?
-  * ???
+  * 8.0 GB
 * What is the available physical memory (MB)?
-  * ???
+  * 3.3 GB
 * How much physical memory (MB) is being used by the computer?
-  * ???
+  * 4.5 GB
 * Click the __Ethernet Chart__ in the left panel of the __Performances__ tab. __Note:__ There is no Ethernet option in
 the Performance tab in Windows 7. Click the __Networking__ tab in Windows 7 for the Ethernet information.
 Questions:
 What is the link speed? What type of Ethernet Adapter is in use on this computer?
-  * ???
+  * Speed: 0
+  * Ethernet Adapter: VirtualBox-Host only Network
 * What type of network connection (i.e Connection type) is in use?
-  * ???
+  * Ethernet
 * What is the IPv4 address of the PC? __Note:__ This information is not available in the Networking tab in
 Windows 7.
-  * ???
+  * 192.168.56.1
 * Click the __Memory__ heading. Click the __Memory__ heading a second time.
 Question:
 What effect does this have on the columns?
-  * ???
+  * It'll make only that heading visible. Also it will only be closed by right-clicking the icon
 *  Right-click on the __Memory__ heading, and then select __Resource values > Memory > Percents__. __Note:__ Resource values options are not available in Windows 7.
 Questions:
 What affect does this have on the Memory column?
-  * ???
+  * This is not possible
 * How could this be useful?
-  * ???
+  * No answer
 * The listed processes are divided by categories. What categories are listed?
-  * ???
+  * No answer
 * Right-click a username. What are the available options?
-  * ???
+  * Expand
+  * Disconnect
+  * Manage User Accounts
 * The __Startup__ tab lists the processes that are started automatically during Windows startup. Click the
 __Startup__ tab. Right-click a process and list the available options below.
-  * ???
+  * Disable
+  * Open file location
+  * Search online
+  * Properties
 * The __App history__ tab lists the historical resources usage.
 Question:
 What type of information can you get from this list?
-  * ???
+  * CPU-time
+  * Network
+  * Metered network
+  * Tile updates
 * The Details tab displays process information such as process ID (PID), status, and memory utilization.
 Right-click a process and list the available options below
-  * ???
+  * End task
+  * Provide feedback
+  * End process tree
 * __Reflection Question:__ Why is it important for an administrator to understand how to work within the Task Manager?
   * It provides information about memory, CPU usage, and processes. It also allows the administrator to control process priority levels, and provides a way to end tasks or cancel processes.
 ### 11.1.4.11 Lab - Working with File Explorer
