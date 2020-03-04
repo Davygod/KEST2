@@ -462,7 +462,7 @@ What is the status of the service?
 * Look for __Windows Defender Antivirus Network Inspection Service__ (Windows 10) or __Windows
 Defender Service__ (Windows 8.1) or __Windows Defender__ (Windows 7). Record the Windows Defender
 status.
-  * ???
+  * Active
 * In the Application or System pane, you can find the most recent events are related to Windows Defender.
 Right-click the interested log, select __Find__. Enter __defender__ to search Windows Defender related entries. In the General tab, what is listed as the Source of the event? What is the severity level?
   * ???
@@ -489,7 +489,7 @@ What is the full path name to the example file name?
 Windows cannot open the file message is displayed.
 Question:
 What does the column farthest to the right show?
-  * System error occurred. Username or Pa
+  * System error occurred. Username or Password
 ### 11.3.2.7 Lab - System Utilities
 * What was the path you use to navigate to the __Event Viewer__?
   * Right click on the Start button and select __Event Viewer__
@@ -530,7 +530,7 @@ What is the color of the desktop?
   * __Adapter RAM:__
 * Under the __Software Environment__ heading, where would you find the applications that automatically load
 when the computer boots?
-  * ???
+  * Startup Apps
 * Click the __General__ tab. Question:
 What are the startup options?
   * Normal, Diagnostic, Selective.
@@ -690,7 +690,7 @@ What command would you use to find out all the tasks that are associated with yo
   * tasklist /FI "username eq grimsi"
 * What command would you use to find out all the processes that have been running for more than 1 hour
 and 40 minutes?
-  * ???
+  * tasklist /fi "cputime gt 01:40:00"
 * Use the taskkill help command to review the command syntax and the available options. Question:
 What command would you use if you wanted to terminate all process owned by a particular user?
   * taskkill /F /FI "USERNAME ne NT AUTHORITY/SYSTEM" /IM.
