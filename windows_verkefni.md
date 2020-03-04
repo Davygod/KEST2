@@ -45,7 +45,7 @@ NTFS (short for New Technology File System) is a modern, well-formed file system
 * How much Free Space is shown?
   * 408 GB
 * List the tabs found in the NEW VOLUME (I): Properties window?
-  * ???
+  * General, Toolls, Hardware, Readyboost, Previous Versions, Customise
 * What tabs are listed in the ITE Test Document Properties window?
   * General, Security, Previous Versions,  Quota, Tools, Hardware, Sharing.
 * What happens if you do not run as administrator when you open the command prompt?
@@ -418,11 +418,11 @@ user account instead of deleting them?
 * In the __Performance Options__ window, click the __Advanced__ tab.
 Question:
 What is the current size of the virtual memory (paging file)?
-  * ???
+  * 3855 MB.
 * What Drive [Volume Label] contains the paging file?
-  * ???
+  * C:
 * What is the recommended paging file size for all drives?
-  * ???
+  * 1901 MB.
 * What Drive [Volume Label] contains the paging file?
   * ???
 * __Reflection questions:__ Why would you ever change the default virtual memory page file settings in Windows?
@@ -435,7 +435,7 @@ What information is listed in the Device Manager window? Why would you use it?
 * Browse through the menus displayed at the top of the Device Manager window. How would you install
 driver software for an older device that may not be automatically recognized by the Windows operating
 system?
-  * ???
+  * Add legacy hardware.
 * In the __Generic Non-PnP Monitor Properties__ window, select the __Driver__ tab. This window displays the
 software driver information that is currently installed for this monitor.
 Question:
@@ -451,14 +451,14 @@ What does the __Roll Back Driver__ button do? The Roll Back Driver can be grayed
 why would it be grayed out?
   * When the Rollback Driver button isn't available (greyed out) it is an indication that a previous driver version has not been installed for that device. Depending on the device it is best to check the device manufacturer's website or ride with the Windows recommendation.
 * What are the other available options?
-  * ???
+  * Details, update, disable, uninstall.
 ### 11.3.1.11 Lab - Monitor and Manage System Resources
 * Scroll to the Computer Management window under the Services heading so you see the __Windows
 Defender Antivirus Network Inspection Service__ (Windows 10) or __Windows Defender Service__
 (Windows 8.1) or __Windows Defender__ (Windows 7).
 Question:
 What is the status of the service?
-  * ???
+  * Nothing.
 * Look for __Windows Defender Antivirus Network Inspection Service__ (Windows 10) or __Windows
 Defender Service__ (Windows 8.1) or __Windows Defender__ (Windows 7). Record the Windows Defender
 status.
@@ -468,11 +468,11 @@ Right-click the interested log, select __Find__. Enter __defender__ to search Wi
   * ???
 * In __Notepad__, click __File__ > __Print__. Record a listed printer below. __Note:__ You do not need to install a physical
 printer
-  * ???
+  * OneNote
 * Open the Services console. (Control Panel > Administrative Tools > Services). Right-click __Print Spooler__ and select __Stop__. Navigate to __Notepad__. Attempt to print.
 Question:
 What message did you receive? How would you fix this?
-  * ???
+  * "Before you can perform printer-related tasks such as page setup or printing a document, you need to install a printer. Do you want to install a printer now?. -Re-enable the Print Spooler".
 * In the Services console, search for __DHCP Client__. Right-click __DHCP Client__ and select __Stop__.
 Question:
 When DHCP Client stops, what other services will also be stopped?
@@ -484,12 +484,12 @@ Why is it important to exercise care when managing services?
 * Expand __User Defined__ and select __Memory Logs__ in the left pane. Right-click __Data Collector01__ and rightclick __Properties__. In DataCollector01 Properties window, change the Log format: field to __Comma Separated__. Click the __File__ tab.
 Question:
 What is the full path name to the example file name?
-  * ???
+  * C:\PerfLogs\LAPTOP-X_20200221-000001\DataCollector01.csv
 * Select __Notepad__ or another program that can read comma-separated files (.csv) to open the file if the
 Windows cannot open the file message is displayed.
 Question:
 What does the column farthest to the right show?
-  * ???
+  * System error occurred. Username or Pa
 ### 11.3.2.7 Lab - System Utilities
 * What was the path you use to navigate to the __Event Viewer__?
   * Right click on the Start button and select __Event Viewer__
