@@ -729,9 +729,9 @@ What is the local drive letter assigned to the connected resource?
 Questions:
 What is the name of your computer? Provide your computer name and shared folder name to your
 partner.
-  * ???
+  * Windows 10 Home
 * What is the name of your partner’s computer and shared folder from your partner?
-  * ???
+  * Windows 10 Home
 * Click __Start__ > enter the shared folder name, for example, \\PartnerComputer\ShareXX. Notice that
 PartnerComputer is the name of your partner’s computer and ShareXX is the name of the shared folder.
 When you have successfully accessed the resource, the content in the folder __ShareXX__ is displayed.
