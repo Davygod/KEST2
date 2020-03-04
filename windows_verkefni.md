@@ -709,18 +709,18 @@ Enter the command to log off your computer. Record the command below.
 * Log back into the computer and shut it down in 120 seconds using the command line.
 Questions:
 Record the command below. What warning message did you see?
-  * Didn't shutdown the computer
+  * "Didn't shutdown the computer"
 * What command would you use to abort the shutdown?
   * Ctrl + C
 ### 11.4.5.3 Lab - Other Useful Commands
 * Use the __net user__ command to verify the user has been created.
 Question:
 When does the password expire?
-  * ???
+  * never
 * Record the network resource information provided by your instructor.
-  * __Network Resource:__
-  * __Username:__
-  * __Password:__
+  * __Network Resource:__ Taekniskolinn
+  * __Username:__ david
+  * __Password:__ open
 * Use the __net use__ command to verify the newly connected resource. Question:
 What is the local drive letter assigned to the connected resource?
   * ???
