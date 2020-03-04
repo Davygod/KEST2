@@ -533,38 +533,38 @@ when the computer boots?
   * ???
 * Click the __General__ tab. Question:
 What are the startup options?
-  * ???
+  * Normal, Diagnostic, Selective.
 * Click the __Services__ tab. This tab lists the computers services and status.
 Question:
 Can you enable and disable services at this tab?
-  * ???
+  * Yes, but it needs to restart.
 * Click the __Tools__ tab.
 Question:
 What can you do in this tab?
-  * ???
+  * Launch Tools
 * Make sure the __System__ tab is active.
 Question:
 What does this tool report?
-  * ???
+  * System information.
 * Click __Next Page__ until you are at the __Display__ tab.
 Question:
 What information is listed on this page?
-  * ???
+  * Built-in graphics.
 * Click __Next Page__ until you are at the Sound tab.
 Question:
 What information is listed on this page?
-  * ???
+  * Sound device and drivers.
 * Click __Next Page__ until you are on the Input tab. Question:
 What information is listed on this page?
-  * ???
+  * All input related devices, such as mouse and keyboard.
 * List any additional tabs in your __DirectX Diagnostic Tool__ window below.
 Question:
 What information is listed on these extra tabs?
-  * ???
+  * Display 2. Only information on the graphics card.
 * __Reflection Question:__ Why would it be beneficial to turn off a service in the system configuration?
   * It may be beneficial to turn off a service if that service may have become unresponsive, or if a service is using too many resources. Answers may vary. There may be programs that you do not wish to start when the computer boots.
 * __Reflection Question:__ When would you use the startup tab of the system configuration tool?
-  * ???
+  * Prevent a service or program to start up automatically.
 ### 11.4.1.5 Lab - Work in the Windows Command Shell
 * At the command prompt, type __help__ and press __Enter__. A list of commands is displayed. The results from the help command are too long to display on one page so you can only readily see the
 last portion. To allow you to see it one page at a time, enter the command __help | more__ at the prompt. The
@@ -592,19 +592,19 @@ How would you create these folders __C:\Users\ITEUser\a\b\c__ if your current di
 C:\Users\ITEUser?
   * mkdir -p \a\b\c\
 * What command would you use to verify the creation of the nested directories?
-  * ???
+  * dir /a ?
 * Clear the screen using the command line.
 Question:
 What command did you use?
-  * ???
+  * cls
 * Press __F7__ on the keyboard for the command history.
 Question:
 What is the last command that you have used? Press __Esc__ on the keyboard to exit the dialog box.
-  * ???
+  * cls
 * Press up arrow to display the last command used.
 Question:
 What is the last command?
-  * ???
+  * cls
 ### 11.4.2.7 Lab - File System Commands
 * Type __cd__ at the command prompt.
 Question:
@@ -613,34 +613,34 @@ What is the current directory?
 * Type __cd ITEfolder3__ at the command prompt and press __Enter__.
 Question:
 Which folder are you in now?
-  * ???
+  * dir3
 * Create __ITEfolder4__ in the current directory. Within the __ITEfolder4__ folder, create a folder named
 __ITEfolder5__. Use the __dir__ command to verify the folder creation.
 Question:
 What command or commands did you use to create the nested folders?
-  * ???
+  * mkdir dir4\dir5
 * Type __cd ..__ to change the current directory. Each .. is a shortcut to move up one level in the directory tree.
 Question:
 After issuing the __cd ..__ command, what is your directory now?
-  * ???
+  * dir4
 * What would be the current directory if you issue this command at C:\Users\ITEfolder4?
-  * ???
+  * C:\Users\
 * To delete a file or multiple files, use the del command with the file names at the prompt.
 Question:
 What single command would you use to delete all the files with doc2 in the filename? Use the command
 to remove the files with doc2 in the filename.
-  * ???
+  * del /f doc2*
 * What command would you use to delete all the files in the directory? Use the command to remove the
 files.
-  * ???
+  * del /F/S
 * Use help __xcopy__ or __xcopy /?__ to determine which switch would allow the xcopy command to copy all the
 files and directories.
 Question:
 What option allows you to copy all the files and directories, including the empty directories?
-  * ???
+  * /E
 * Use the __rd ITEfolder1__ to delete the directory. Verify the directory removal using the __dir__ command.
 Were you able to delete the directory? Explain.
-  * ???
+  * No, file or directory in use.
 * __Reflection Question:__ What are the advantages of using CLI vs. GUI?
   * Overall, a GUI is used by more users today than a CLI. Dedicated and hard core programmers may lean towards using a CLI for efficiency and speed, but the GUI is more user-friendly and preferred by most users.
 ### 11.4.3.2 Lab - Disk CLI Commands
@@ -650,68 +650,68 @@ Questions:
 What is the option to fix errors on the drive?
   * To __fix disk errors__, you can use the Chkdsk tool found in Windows operating systems. Chkdsk (Chkdsk.exe) is a __command__-line tool that creates and displays a status report for the __disk__ by checking volumes for problems.
 * What is the option to force the volume to dismount first if necessary?
-  * ???
+  * /X
 * What is the option to locate bad sectors and recover readable information?
-  * ???
+  * /R
 * Enter the __chkdsk__ command to check the C:\ drive with the options from the questions in the previous
 step.
 Question:
 What happened? Explain.
-  * ???
+  * Access Denied, don't have the right privileges.
 * Note that the volume will be checked when the system restarts that next time because the volume is in
 use and it cannot be checked at this time.
 Question:
 What is the file system of the drive?
-  * ???
+  * NTFS
 * Enter __list disk__ at the __DISKPART>__ prompt to list all the disks in the PC. Question:
 Enter __list partition__ to list all the partitions on the disk. How many partitions are on the disk?
-  * ???
+  * There is no disk selected.
 * Review the __shrink__ command. Enter __help shrink__ at the DISKPART prompt. Question:
 What option is used to determine the maximum number of bytes that the volume can be shrink by?
-  * ???
+  * shrink querymax
 * Use the __shrink__ command with the option __querymax__ to determine the maximum number of bytes that the
 volume can be shrink by.
 Question:
 What is the maximum number of reclaimable bytes?
-  * ???
+  * 1314 MB.
 ### 11.4.4.2 Lab - Task and System CLI Commands
 * Open a command prompt. At the prompt, enter the __tasklist__ command. C:\Users\ITEUser> __tasklist__ Question:
 What command would you use to display the results of tasklist one page at a time?
-  * ???
+  * tasklist | more
 * Enter the tasklist help command to review the syntax and options for the tasklist command. Questions:
 What is the option to list the modules that are associated with a task?
-  * ???
+  * tasklist /M [module]
 * What command would you use if you want to find all the tasks that use the module oleaut32.dll? List a
 few tasks that uses oleaut32.dll.
-  * ???
+  * tasklist /FI "username eq grimsi"
 * Using the options available with tasklist, you can filter the tasklist results for specific image name, such as
 notepad.exe for notepad. Record the PID for the next step. Questions:
 What command would you use to find out all the tasks that are associated with your username?
-  * ???
+  * tasklist /FI "username eq grimsi"
 * What command would you use to find out all the processes that have been running for more than 1 hour
 and 40 minutes?
   * ???
 * Use the taskkill help command to review the command syntax and the available options. Question:
 What command would you use if you wanted to terminate all process owned by a particular user?
-  * ???
+  * taskkill /F /FI "USERNAME ne NT AUTHORITY/SYSTEM" /IM.
 * Open a command prompt with administrative privileges. Review the syntax and options of the sfc command. Question:
 What option would you use if you only wanted to scan the integrity of all the protected system files?
-  * ???
+  * sfc /VERIFYONLY
 * To make easier to read, you can format the output into a table by adding __/format:table__ option. Question:
 What would you add to the command so you can view the output one page at a time?
-  * ???
+  * | more
 * In a command prompt, enter __shutdown__ at the prompt. Review the syntax and available options for
 shutting down the computer via the command line. Notice the options to shut down or restart a remote computer, add comments regarding the reason for
 restart or shutdown, and the ability to set a time-out period before the shutdown.
 Question:
 Enter the command to log off your computer. Record the command below.
-  * ???
+  * shutdown /I
 * Log back into the computer and shut it down in 120 seconds using the command line.
 Questions:
 Record the command below. What warning message did you see?
-  * ???
+  * Didn't shutdown the computer
 * What command would you use to abort the shutdown?
-  * ???
+  * Ctrl + C
 ### 11.4.5.3 Lab - Other Useful Commands
 * Use the __net user__ command to verify the user has been created.
 Question:
